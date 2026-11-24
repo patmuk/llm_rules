@@ -236,7 +236,7 @@ when first needed).
 
 ## Plan
 
-- [ ] 1. General text: build `LLM_RULES.md`, `LLM_GENERAL/` and
+- [x] 1. General text: build `LLM_RULES.md`, `LLM_GENERAL/` and
       `stacks/` from the base project's files, merge D3, apply D4 and D5,
       write the overlay template, `AGENTS.md`, `CHANGELOG.md`; v1.0.0.
 - [ ] 2. Plugin `pipeline`: the six skills of D6 and the README table;
@@ -255,4 +255,10 @@ the repo it touches.
 
 ## Open
 
-Nothing.
+- `!decide` where the storage-shape rules of the shared generator go:
+  they hold for every project that uses it, but are no general rule
+  and no stack of `stacks/`. Kept out of v1.0.0; until decided they
+  stay in each project's `LLM/LLM_AREA_PATTERNS.md`.
+- `!human` read the general files once before the first project is
+  wired: they were extracted by agents and checked for names and
+  paths only.
