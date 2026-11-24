@@ -239,7 +239,7 @@ when first needed).
 - [x] 1. General text: build `LLM_RULES.md`, `LLM_GENERAL/` and
       `stacks/` from the base project's files, merge D3, apply D4 and D5,
       write the overlay template, `AGENTS.md`, `CHANGELOG.md`; v1.0.0.
-- [ ] 2. Plugin `pipeline`: the six skills of D6 and the README table;
+- [x] 2. Plugin `pipeline`: the six skills of D6 and the README table;
       check how the plugin repository is installed (local path).
 - [ ] 3. Wire the newest project: `AGENTS.md` with the block of D2, the
       overlay, remove `CLAUDE.md` and the copied general files; approve
@@ -255,6 +255,9 @@ the repo it touches.
 
 ## Open
 
+- `!human` the plugin repository is installed from GitHub, so its
+  plugins are cached copies: add it as a marketplace by local path and
+  install `pipeline` from there (the plugin's README), before step 3.
 - `!decide` where the storage-shape rules of the shared generator go:
   they hold for every project that uses it, but are no general rule
   and no stack of `stacks/`. Kept out of v1.0.0; until decided they
