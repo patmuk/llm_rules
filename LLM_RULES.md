@@ -1,6 +1,6 @@
 # LLM_RULES.md — general rules
 
-Version: v1.0.0
+Version: v1.1.0
 
 These rules apply to **all LLM-assisted work** in every project that
 imports this file. They are mandatory and override default LLM

@@ -36,6 +36,8 @@ not a prompt for an immediate guess.
 The main session is the only one that talks to the user; subagents
 cannot. The model is switched with `/model` and stays for the session;
 the subagents get theirs through the Agent tool's `model`.
+The table names model families: each role takes the latest version of
+its family, never a pinned one.
 
 Per-task jj rules apply unchanged: the implementer works in a
 per-task workspace (§2.3 of the ways of working), the monitor and the

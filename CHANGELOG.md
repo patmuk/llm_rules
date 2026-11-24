@@ -4,6 +4,12 @@ One entry per version of `LLM_RULES.md`. The digits: patch = wording;
 minor = a rule added, changed or removed; major = the contract with the
 projects changed, and the entry says what a project must do.
 
+## v1.1.0 — 2026-11-24
+
+- **Device rounds**: the roles name model families; each takes the
+  latest version of its family, never a pinned one. Nothing for a
+  project to do.
+
 ## v1.0.0 — 2026-11-24
 
 The first version, extracted from the rule docs three projects carried
