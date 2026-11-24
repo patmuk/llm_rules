@@ -193,7 +193,7 @@ name it.
 | —                                    | `gap-report`     | analysis verified against the code; halts only on `!decide` / conflict |
 | `to-spec`                            | `spec`           | grilled decisions, the sections of D5, the one-screen brief            |
 | `to-tickets`                         | (inside `spec`)  | the slice list in the plan doc, no ticket files                        |
-| `implement`, `implement-spec`        | `implement-it`   | vertical slices, jj workspace, verify per slice, calls `tdd`           |
+| `implement`, `implement-spec`        | `go-implement-it` | vertical slices, jj workspace, verify per slice, calls `tdd`           |
 | `code-review`                        | `wrap-up`        | two-axis review through jj, plan doc and `todo.md` updated, the report |
 | `wayfinder`                          | `decide`         | a map of decision questions in the todo doc, one per session           |
 | `triage`                             | —                | the markers of D5 only                                                 |
@@ -201,10 +201,9 @@ name it.
 | —                                    | `device-round`   | a device test round with a monitor subagent                            |
 
 - The table goes into the plugin's README.
-- `implement-it` is the phrase the owner already says; `wrap-up`
-  because `review` is taken by `code-review-local:review`. Typing
-  `/impl…` also offers Matt Pocock's `implement`: pick the `pipeline:`
-  one.
+- `go-implement-it` is the phrase the owner already says, and `/go…`
+  offers nothing of Matt Pocock's; `wrap-up` because `review` is taken
+  by `code-review-local:review`.
 - The skills call Matt Pocock's thinking skills by name: `grilling`,
   `domain-modeling`, `tdd`, `diagnosing-bugs`, `prototype`, `research`,
   `codebase-design`. His plugin stays unmodified so it updates freely.
