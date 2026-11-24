@@ -255,13 +255,12 @@ the repo it touches.
 
 ## Open
 
-- `!human` the plugin repository is installed from GitHub, so its
-  plugins are cached copies: add it as a marketplace by local path and
-  install `pipeline` from there (the plugin's README), before step 3.
 - `!decide` where the storage-shape rules of the shared generator go:
   they hold for every project that uses it, but are no general rule
   and no stack of `stacks/`. Kept out of v1.0.0; until decided they
   stay in each project's `LLM/LLM_AREA_PATTERNS.md`.
-- `!human` read the general files once before the first project is
-  wired: they were extracted by agents and checked for names and
-  paths only.
+- `!human` read the extracted general files once before the first
+  project is wired (coding style, design principles, UI principles,
+  jj playbooks, user testing, the stack files): agents extracted them
+  and they were checked for names and paths only. The ways of working
+  are read (2026-11-24).
